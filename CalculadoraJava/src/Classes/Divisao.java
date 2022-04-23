@@ -21,7 +21,7 @@ public class Divisao implements ICalculadora{
 
 	@Override
 	public Integer calcula(Integer[] numeros) {
-		int divisao = 0;
+		int divisao = numeros;
 		for (Integer d : numeros) {
 			divisao = d.intValue() / d.intValue();
 		}
@@ -30,7 +30,7 @@ public class Divisao implements ICalculadora{
 
 	@Override
 	public Float calcula(Float[] numeros) {
-		Float divisao = 0f;
+		Float divisao = numerosf;
 		for (Float d : numeros) {
 			divisao = d.floatValue() / 
 
@@ -41,7 +41,7 @@ d.floatValue();
 
 	@Override
 	public Double calcula(Double[] numeros) {
-		Double divisao = 0d;
+		Double divisao = numerosd;
 		for (Double d : numeros) {
 			divisao = d.doubleValue() / 
 
